@@ -10,4 +10,9 @@ public class Client{
         this.contact=contact;
         this.reference=reference;
     }
+
+	@Override
+    public String toString(){
+        return "le nom du client est : " + this.nom + "\n" + "Le montant du paiement est : " + this.paiement + "\n" + "Le contact du client est : " + this.contact + "\n" + "La reference du client est : " + this.reference + "\n";
+    }
 }

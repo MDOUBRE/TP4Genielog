@@ -28,7 +28,7 @@ public class Reservation{
 
     @Override
     public String toString(){
-        return "";
+        return "L'identification de la reservation est : " + this.identifiant + "\n" + "L'etat de la reservation est : " + this.etat + "\n";
     }
 
 }
